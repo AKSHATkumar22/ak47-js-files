@@ -11,4 +11,4 @@ var accountCity = "Jaipur";
 accountCity = "Bangalore";
 accountGmail = "salonakumar290@gmail.com";
 
-console.log([accountId, accountGmail, accountCity]);
+console.table([accountId, accountGmail, accountCity]);
