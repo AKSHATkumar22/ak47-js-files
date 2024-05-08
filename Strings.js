@@ -29,3 +29,8 @@ console.log(
 const myUseCase = "Phones";
 
 console.log(`Everyday I need my phone ${myUseCase.trim(myUseCase)}`);
+
+// now the links and url method
+
+const links = "https://akshatKumar%20.com";
+console.log(links.replace("%20", "-"));
