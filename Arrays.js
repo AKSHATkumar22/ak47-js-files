@@ -52,3 +52,20 @@ console.log(myArr1.slice(1, 3));
 let myArr2 = ["1", "2", "4", "5", "6", "7", "8", "9"];
 
 console.log(myArr2.splice(1, 2));
+
+// 5th method in the Arrays.
+// merging two different arrays element in one arrays form.
+
+const tech_giants = ["apple", "sony", "Amazon"];
+
+const product_giants = ["Tcs", "cogni", "wipro"];
+
+console.log(tech_giants.concat(product_giants)); //<-- one method is concat to merge two arrays inone form
+
+// 6th method i.e. (...) to merge the two arrays form.
+
+const tech_giant = ["apple", "sony", "Amazon"];
+
+const product_giant = ["Tcs", "cogni", "wipro"];
+
+console.log(...tech_giant, ...product_giant); //<-- this method is okay but not satisfied in it.
