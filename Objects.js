@@ -19,3 +19,14 @@ console.log(JsUser.city);
 
 // Here, It will print the output but while printing time we have to define it in a String way i.e. "".
 console.log(JsUser["gmail"]);
+
+// singleton objects creation
+// This are called the singleton objects creation
+const facebookUser = {};
+
+facebookUser.id = "123";
+facebookUser.name = "Akshat Kumar";
+facebookUser.gmail = "salonakumar.com";
+facebookUser.city = "Kurseong";
+
+console.log(facebookUser);
