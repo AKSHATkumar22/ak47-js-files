@@ -1,0 +1,33 @@
+* {
+  margin: 0%;
+  background-color: #a7a7a7;
+  margin-top: 2.5%;
+  padding: 10px 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 25px;
+  color: beige;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#black {
+  background-color: black;
+  color: aliceblue;
+}
