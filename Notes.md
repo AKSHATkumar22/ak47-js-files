@@ -15,6 +15,47 @@ A classes is a user-defined and member functions.
 
 ## create an object ?
 
+--Object Called..
+
+// Object method 
+
+const user = {
+    username: "akshat",
+   
+    gmail: "you.com",
+
+    getUserDetails: function(){
+
+    }
+    
+
+}
+
+console.log(user.username);
+
+console.log(user.getUserDetails);
+
+
+// this method or the keyword....
+
+// in this way we will call the object...
+
+function user1(loginIn, LoginCount, isLoggedIn){
+
+    this.isLoggedIn = isLoggedIn;
+
+    this.LoginCount = LoginCount;
+
+    this.loginIn = loginIn;
+
+    return this;
+}
+const userOne = new user1("hitesh", "hello", "true");
+
+
+console.log(userOne);
+
+
 
 -- A.obj1;
 
