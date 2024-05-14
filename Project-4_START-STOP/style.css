@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#start{
+    color: black;
+    background-color: yellow;
+}
+
+#stop{
+    background-color: yellow;
+}

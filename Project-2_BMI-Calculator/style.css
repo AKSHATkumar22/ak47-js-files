@@ -1,0 +1,38 @@
+.div-cal{
+    background-color: #a7a7a7;
+    text-align: center;
+}
+
+.cal-inp{
+    width: 350px;
+    height: 40px;
+}
+
+.cal-h1{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.cal-p{
+    font-size: 22px;
+    font-weight: 500;
+    height: 65px;
+}
+
+.cal-b{
+    font-size: 18px;
+    height: 10vh;
+    width: 10vw;
+    border-radius: 12px;
+}
+
+.cal-h2{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
